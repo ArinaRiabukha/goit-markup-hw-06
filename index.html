@@ -13,33 +13,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css" />
     <style>
-      a {
-        text-decoration: none;
-      }
-      li {
-        list-style-type: none;
-      }
-      body {
-        background-color: white;
-        color: #434455;
-        font-family: Roboto, sans-serif;
-      }
-      h1, h2, h3, h4, h5, h6{
-        margin: 0;
-      }
-      p{
-        margin: 0;
-      }
-      img{
-        display: block;
-      }
-      ul, ol{
-        margin: 0;
-        padding: 0;
-      }
-      input {
-	      font-family: inherit;
-      }
+      
     </style>
   </head>
   <body>
@@ -64,6 +38,62 @@
           </li>
         </ul>
       </address>
+      <button class="menu-button" type="button">
+        <svg class="menu-icon" width="24" height="24">
+          <use href="./images/icons.svg#icon-menu"></use>
+        </svg>
+      </button>
+    </div>
+
+    <div class="mobile-menu">
+      <div class="container modile-menu-container">
+        <button type="button" class="menu-mobile-button">
+          <svg class="svg-close" width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+          </button>
+          <ul class="menu-ul">
+            <li><a class="menu-link" href="./index.html">Studio</a></li>
+            <li><a class="menu-link" href="">Portfolio</a></li>
+            <li><a class="menu-link" href="">Contacts</a></li>
+          </ul>
+          <address class="menu-add">
+            <ul class="menu-add-ul">
+              <li>
+                <a href="mailto:info@devstudio.com" class="menu-add-link">info@devstudio.com</a>
+              </li>
+              <li>
+                <a href="tel:+110001111111" class="menu-add-link">+11 (000) 111-11-11</a>
+              </li>
+            </ul>
+          </address>
+          <ul class="menu-icons-ul">
+            <li class="menu-icons-li"> <a class="menu-icons-a" href="#">
+            <svg class="menu-svg" width="24" height="24">
+            <use href="./images/icons.svg#icon-instagram"></use>
+          </svg>
+         </a>
+            </li>
+            <li class="menu-icons-li"> <a class="menu-icons-a" href="#">
+              <svg class="menu-svg" width="24" height="24">
+              <use href="./images/icons.svg#icon-twitter"></use>
+            </svg>
+           </a>
+              </li>
+              <li class="menu-icons-li"> <a class="menu-icons-a" href="#">
+                <svg class="menu-svg" width="24" height="24">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+             </a>
+                </li>
+                <li class="menu-icons-li"> <a class="menu-icons-a" href="#">
+                  <svg class="menu-svg" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+               </a>
+                  </li>
+         </ul>
+      </div>
     </div>
     </header>
 
@@ -137,6 +167,7 @@
         <ul class="sec-three-ul">
           <li class="sec-three-li">
             <img
+             srcset="./images/mark-guerrero.jpg 1x, ./images/2xmark-guerrero.jpg 2x"
               src="./images/mark-guerrero.jpg"
               alt="male team member"
               width="264"
@@ -175,6 +206,7 @@
           </li>
           <li class="sec-three-li">
             <img
+            srcset="./images/tom-ford.jpg 1x, ./images/2xtom-ford.jpg 2x"
               src="./images/tom-ford.jpg"
               alt="male team member"
               width="264"
@@ -213,6 +245,7 @@
           </li>
           <li class="sec-three-li">
             <img
+            srcset="./images/camila-garcia.jpg 1x, ./images/2xcamila-garcia.jpg 2x"
               src="./images/camila-garcia.jpg"
               alt="female team member"
               width="264"
@@ -251,6 +284,7 @@
           </li>
           <li class="sec-three-li">
             <img
+            srcset="./images/daniel-wilson.jpg 1x, ./images/2xdaniel-wilson.jpg 2x"
               src="./images/daniel-wilson.jpg"
               alt="male team member"
               width="264"
@@ -297,6 +331,7 @@
             <li class="sec-four-li">
             <div class="overlay-content">
             <img class="sec-four-img"
+            srcset="./images/li-one.jpg 1x, ./images/2xli-one.jpg 2x"
               src="./images/li-one.jpg"
               alt="Banking App"
               width="360"
@@ -312,6 +347,7 @@
           <li class="sec-four-li">
             <div class="overlay-content">
             <img class="sec-four-img"
+            srcset="./images/li-two.jpg 1x, ./images/2xli-two.jpg 2x"
               src="./images/li-two.jpg"
               alt="Cashless Payment"
               width="360"
@@ -327,6 +363,7 @@
           <li class="sec-four-li">
             <div class="overlay-content">
             <img class="sec-four-img"
+            srcset="./images/li-three.jpg 1x, ./images/2xli-three.jpg 2x"
               src="./images/li-three.jpg"
               alt="Meditation App"
               width="360"
@@ -342,6 +379,7 @@
           <li class="sec-four-li">
             <div class="overlay-content">
             <img class="sec-four-img"
+            srcset="./images/li-four.jpg 1x, ./images/2xli-four.jpg 2x"
               src="./images/li-four.jpg"
               alt="Taxi Service"
               width="360"
@@ -357,6 +395,7 @@
           <li class="sec-four-li">
             <div class="overlay-content">
             <img class="sec-four-img"
+            srcset="./images/li-five.jpg 1x, ./images/2xli-five.jpg 2x"
               src="./images/li-five.jpg"
               alt="Screen Illustrations"
               width="360"
@@ -372,6 +411,7 @@
           <li class="sec-four-li">
             <div class="overlay-content">
             <img class="sec-four-img"
+            srcset="./images/li-six.jpg 1x, ./images/2xli-six.jpg 2x"
               src="./images/li-six.jpg"
               alt="Online Courses"
               width="360"
@@ -391,6 +431,7 @@
 
     <footer class="sec-five">
       <div class="container sec-five-container">
+        <div class="logo-contacts">
         <div class="logo-section">
       <a class="title-three" href="./index.html">Web<span class="title-four">Studio</span></a>
       <p class="sec-five-text">
@@ -427,6 +468,7 @@
                 </li>
        </ul>
       </div>
+      </div>
       <div class="footer-form">
       <p class="data-subscribe">Subscribe</p>
       <form class="data-input">
@@ -443,7 +485,7 @@
       </div>
     </footer>
 
-    <div class="backdrop is-open">
+    <div class="backdrop">
       <div class="modal">
         <button type="button" class="modal-button">
         <svg class="svg-close" width="8" height="8">
